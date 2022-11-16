@@ -1,0 +1,118 @@
+#Print Table of 5
+
+
+
+
+# n=int(input("Which table you need type:"))
+# i=1
+
+# while i<=10:
+#     ans=n * i
+#     print(n,"*",i,"=",ans)
+#     i=i+1
+    
+
+
+# num = 9
+# counter = 1
+
+# while counter<=10: # Either True or False
+#     ans = num * counter
+#     print(num,' * ',counter,' = ',ans)
+#     counter = counter + 1
+
+
+# word = input("Please Enter the text:")
+# i=1
+
+# while i<=100:
+#     print(word)
+#     i=i+1
+
+
+
+#Print Even numbers from 1 to 20
+
+# n=20
+# i=2
+
+# while i<=n:
+#     print(i)
+#     i=i+2
+
+#Check if number is even or odd
+
+# n=int(input("Enter the Number:"))
+
+# if n%2==1:
+#     print(n,"is odd Number")
+# else:
+#     print(n,"is even number")
+
+#Print 1 to n numbers
+
+# n=int(input("Enter the number:"))
+# i=1
+
+# while i<=n:
+#     print(i)
+#     i=i+1
+
+#Print numbers in Reverse order
+# n=int(input("Enter the number:"))
+
+# while n>=0:
+#     print(n)
+#     n-=1
+
+
+#Print Sum of1 to 10 natural numbers
+
+# n=int(input("Enter the number:"))
+# sum=0
+# i=1
+
+# while i<=n:
+#     sum=sum+i
+#     i=i+1
+#     print("the sum of",i-1,"numbers is:",sum)
+
+
+
+#print Sum of odd numbers upto n
+# n=int(input("Enter the number:"))
+# sum=0
+# i=1
+# j=0
+
+# while i<=n:
+#     sum=sum+i
+#     i=i+2
+#     j=j+1
+#     print("the sum of first",j,"odd numbers is:",sum)
+
+
+
+#Product of 1 to 10 even numbers
+# n=10
+# product=1
+# i=2
+# j=0
+
+# while i<=n:
+#     product=product*i
+#     i=i+2
+#     j=j+1
+#     print("the product of first",j,"even numbers is:",product)
+
+
+#print factor of input number
+n=int(input("Enter the number:"))
+factor=1
+i=1
+
+while i<=n:
+    factor=factor*i
+    i=i-1
+    print(factor)
+    
