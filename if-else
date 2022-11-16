@@ -1,0 +1,45 @@
+x=16
+
+# if x==16:
+#     print("Yes, X is equal to 16")
+# else:
+#     print("No, X is not equal to 16")
+
+
+a=50
+
+# if a==50:
+#     print("a is equal to 50")
+# print("Bye")
+
+
+# if a==50:
+#     print("a is equal to 50")
+
+
+# print("Bye")
+
+
+# marks=90
+
+# if marks>=90:
+#     print("He is an Outstanding student")
+# elif marks>=80 and marks<90:
+#     print("He is doing good")
+# elif marks>=70 and marks<80:
+#     print("His studies is ok ok")
+# else:
+#     print("He need to focus more on studies")
+
+
+
+marks=int(input("Enter your Marks:"))
+
+if marks>=90:
+    print("He is an Outstanding student")
+elif marks>=80 and marks<90:
+    print("He is doing good")
+elif marks>=70 and marks<80:
+    print("His studies is ok ok")
+else:
+    print("He need to focus more on studies")
