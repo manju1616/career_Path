@@ -1,0 +1,46 @@
+# Declare & Assign Variables in python
+
+int_var = 10
+float_var = 18.25
+string_var = 'ineuron batch2' # or another way "ineuron batch2"
+bool_var = True # if we want to assign false then it should be like False
+
+
+#print(bool_var)
+#print(float_var)
+#print(string_var)
+#print(int_var)
+
+#print("Hello World !!!!")
+
+
+# print("the value of Int_Varialble = ",int_var,"-- Result Done")
+# print("the value of float_var = ",float_var,"-- Result Done")
+# print("the value of string_var = ",string_var,"-- Result Done")
+# print("the value of bool_var = ",bool_var,"-- Result Done")
+
+# print("Type of int_var ?", type(int_var))
+# print("Type of float_var ?", type(float_var))
+# print("Type of string_var ?", type(string_var))
+# print("Type of bool_var ?", type(bool_var))
+
+int_var = int_var + 10
+# print(int_var)
+
+casted_int_var = float(int_var)
+# print(casted_int_var)
+
+#print("Int to Float Typecasting for int_var = ",casted_int_var)
+
+numeric_str = "123"
+numeric_str = int(numeric_str) + 50
+
+#print(numeric_str)
+
+name=input("Enter your name:")
+age=input("Enter your age:")
+# print("user Name is:",name)
+# print("user age is:",age)
+
+print("type of name is",type(name))
+print("type of age is",type(age))
