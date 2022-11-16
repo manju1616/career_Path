@@ -43,3 +43,14 @@ elif marks>=70 and marks<80:
     print("His studies is ok ok")
 else:
     print("He need to focus more on studies")
+
+
+age=int(input("Please enter your age:"))
+
+
+if age in range(0,3):
+    print("You are little kid!!")
+elif age in range(4,7):
+    print("Oh Sorry!!!! you are not allowed to play this game try other")
+else:
+    print("Its great!!!! Come and enjoy the game")
